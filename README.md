@@ -18,7 +18,7 @@ Port Forwarding Ngrok
 
 ```bash
 npm init 
-npm i chalk@4.1.4 express ngrok prompt-sync
+npm i chalk@4.1.1 express ngrok prompt-sync
 node .
 ```
     
