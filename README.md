@@ -17,6 +17,8 @@ Port Forwarding Ngrok
 ## Installation
 
 ```bash
+git clone https://github.com/StiizzyCat/FilterWare
+cd FilterWare
 npm init 
 npm i chalk@4.1.1 express ngrok prompt-sync
 node .
