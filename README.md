@@ -15,6 +15,7 @@ Port Forwarding Ngrok
 #### Usage of FilterWare for attacking targets without consent is illegal. I Stiizzy Cat, am not responsible for any damage caused by the use of this script, users should follow their local regulations.
 
 ## it is best to run this on repl so your ip is not exposed
+[![Run on Repl.it](https://repl.it/badge/github/plibither8/2048.cpp)](https://replit.com/@mikekawk/FilterWare#index.js)
 
 ## Installation
 
