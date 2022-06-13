@@ -14,6 +14,8 @@ Port Forwarding Ngrok
 ## Legal disclaimer:
 #### Usage of FilterWare for attacking targets without consent is illegal. I Stiizzy Cat, am not responsible for any damage caused by the use of this script, users should follow their local regulations.
 
+## it is best to run this on repl so your ip is not exposed
+
 ## Installation
 
 ```bash
